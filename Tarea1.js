@@ -11,7 +11,7 @@ const Estudiante = [
     { id: 61721493, nombre: 'Daniel', ciudad: 'SPS', nota: 89, observacion: 'Aprobado'}
 ]
 
-const Aprobado = Estudiante.filter(item => {
-    return item.observacion === 'Aprobado'})
+const Reprobado = Estudiante.filter(item => {
+    return item.observacion === 'Reprobado'})
 
-console.log(Aprobado)
+console.log(Reprobado)
